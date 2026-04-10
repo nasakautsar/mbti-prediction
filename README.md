@@ -38,6 +38,9 @@ INFP (with confidence score)
 - Add personality explanations
 - Deploy to cloud for public access
 
+## Live Demo
+https://mbti-prediction-xxxxx.streamlit.app/
+
 ## Author
 Nasaka
 
