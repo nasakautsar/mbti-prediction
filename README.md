@@ -39,7 +39,7 @@ INFP (with confidence score)
 - Deploy to cloud for public access
 
 ## Live Demo
-https://mbti-prediction-xxxxx.streamlit.app/
+[https://mbti-prediction-xxxxx.streamlit.app/](https://mbti-prediction-ff9m3vwxf44fe9mzbt9jfx.streamlit.app/)
 
 ## Author
 Nasaka
