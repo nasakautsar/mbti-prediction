@@ -1,22 +1,44 @@
 # PersonaAI - MBTI Personality Predictor
-PersonaAI is an AI-powered web application that predicts a user's MBTI personality type based on text input.
+
+PersonaAI is an AI-powered web application that predicts a user's MBTI personality type based on text input using Natural Language Processing (NLP).
 
 ## Features
-- Predict MBTI personality type from user text
+
+- Predict MBTI personality type from text
 - Confidence score for predictions
-- Clean and interactive UI using Streamlit
+- Interactive web interface (Streamlit)
 
 ## How It Works
-The model uses Natural Language Processing (NLP) techniques to analyze user input and classify it into one of the 16 MBTI personality types.
+
+The system processes user text using TF-IDF vectorization and applies a machine learning classification model to predict one of the 16 MBTI personality types.
 
 ## Tech Stack
+
 - Python
 - Scikit-learn
 - Streamlit
-- TF-IDF Vectorization
-- Machine Learning Classification
+- NLP (TF-IDF)
 
 ## Run Locally
-```bash
+
 pip install -r requirements.txt
 streamlit run app.py
+
+## Example
+
+Input:
+"I enjoy spending time alone and thinking deeply about ideas"
+
+Output:
+INFP (with confidence score)
+
+## Future Improvements
+
+- Improve model using Deep Learning (BERT)
+- Add personality explanations
+- Deploy to cloud for public access
+
+## Author
+Nasaka
+
+Developed as an AI portfolio project combining Machine Learning and Psychology.
